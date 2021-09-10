@@ -1,0 +1,468 @@
+<developments>
+	<!-- TECHNOLOGIES -->
+	<development>
+		<type>TECHNOLOGY</type>
+		<subtype>TOOLS</subtype>
+		<name>STONE_TOOLS</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>2</creativity>
+			<productivity>5</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>5</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<rates>
+			<production>5.0</production>
+		</rates>
+		<required>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>STONE</value>
+			</resources>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<subtype>TOOLS</subtype>
+		<name>WOOD_TOOLS</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>2</creativity>
+			<productivity>5</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>5</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<rates>
+			<production>5.0</production>
+		</rates>
+		<required>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>WOOD</value>
+			</resources>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<subtype>TOOLS</subtype>
+		<name>BAMBOO_TOOLS</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>2</creativity>
+			<productivity>5</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>5</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<rates>
+			<production>5.0</production>
+		</rates>
+		<required>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>BAMBOO</value>
+			</resources>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<subtype>TOOLS</subtype>
+		<name>IRON_TOOLS</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>2</creativity>
+			<productivity>8</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>5</curiousity>
+			<courage>1</courage>			
+		</buffs>
+		<cost>
+			<intelligence>50</intelligence>
+		</cost>
+		<rates>
+			<production>6.0</production>
+		</rates>
+		<required>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>IRON</value>
+			</resources>
+			<technology>
+				<value>MINING</value>
+			</technology>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<name>COOKING</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>1</creativity>
+			<productivity>5</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<intelligence>3</intelligence>		
+		</cost>
+		<rates>
+			<health>5.0</health>
+			<population>2.5</population>
+			<intelligence>2.0</intelligence>
+		</rates>
+		<required>
+			<!-- REQUIRED DISCOVERIES-->
+			<discoveries>
+				<value>FIRE</value>
+			</discoveries>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<name>MINING</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>0</creativity>
+			<productivity>2</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>2</curiousity>
+			<courage>1</courage>			
+		</buffs>
+		<cost>
+			<intelligence>20</intelligence>		
+		</cost>
+		<rates>
+			<health>-1.0</health>
+		</rates>
+		<required>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<optionalValue>STONE,IRON</optionalValue>
+				<optionalValue>WOOD</optionalValue>
+			</resources>
+			<!-- REQUIRED TECHS -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+
+		<development>
+		<type>TECHNOLOGY</type>
+		<name>HUNTING</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>5</aggression>
+			<creativity>0</creativity>
+			<productivity>2</productivity>
+			<spirituality>2</spirituality>
+			<curiousity>2</curiousity>
+			<courage>5</courage>			
+		</buffs>
+		<cost>
+			<intelligence>10</intelligence>			
+		</cost>
+		<rates>
+			<health>2</health>
+			<production>2</production>
+		</rates>
+		<required>
+			<!-- REQUIRED ENVIRONMENT -->
+			<!-- Attributes between 0 and 100, default=50 -->
+			<minAggression>
+				<value>2</value>
+			</minAggression>
+			<minCourage>
+				<value>3</value>
+			</minCourage>
+
+			<resourceType>
+				<value>ANIMAL</value>
+			</resourceType>
+
+			<!-- REQUIRED TECHTYPE -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<name>FARMING</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>-1</aggression>
+			<creativity>0</creativity>
+			<productivity>5</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>-2</courage>			
+		</buffs>
+		<cost>
+			<intelligence>15</intelligence>
+		</cost>
+		<rates>
+			<health>1</health>
+			<population>1.5</population>
+			<production>3</production>
+		</rates>
+		<required>
+			<minProductivity>
+				<value>10</value>
+			</minProductivity>
+
+			<maxTemperature>
+				<value>40</value>
+			</maxTemperature>
+			
+			<!-- refer to exact name of resource in list -->
+			<resourceType>
+				<value>GRAIN</value>
+			</resourceType>
+
+			<!-- REQUIRED TECHTYPE -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+
+	<development>
+		<type>TECHNOLOGY</type>
+		<name>GEOMETRY</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>5</creativity>
+			<productivity>2</productivity>
+			<spirituality>-1</spirituality>
+			<curiousity>6</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<intelligence>40</intelligence>		
+		</cost>
+		<rates>
+			<intelligence>3.5</intelligence>
+			<production>1.5</production>
+		</rates>
+		<required>
+			<mincuriousity>
+				<value>5</value>
+			</mincuriousity>
+		</required>
+	</development>
+
+	<!-- DISCOVERIES -->
+	<development>
+		<type>DISCOVERY</type>
+		<name>FIRE</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>5</aggression>
+			<creativity>5</creativity>
+			<productivity>5</productivity>
+			<spirituality>5</spirituality>
+			<curiousity>5</curiousity>
+			<courage>5</courage>			
+		</buffs>
+		<rates>
+			<health>1.0</health>
+			<population>2.0</population>
+			<intelligence>0.5</intelligence>
+			<production>3.0</production>
+		</rates>
+	</development>
+
+	<!-- BUILDINGS -->
+	<development>
+		<type>BUILDING</type>
+		<subtype>HUT</subtype>
+		<name>STONE_HUT</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>-1</aggression>
+			<creativity>0</creativity>
+			<productivity>1</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<production>20</production>			
+		</cost>
+		<rates>
+			<population>5.0</population>
+			<production>1.5</production>
+		</rates>
+		<required>
+			<maxTemperature>
+				<value>50</value>
+			</maxTemperature>
+			<minProductivity>
+				<value>5</value>
+			</minProductivity>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>STONE</value>
+			</resources>
+			<!-- REQUIRED TECHS -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+	<development>
+		<type>BUILDING</type>
+		<subtype>HUT</subtype>
+		<name>WOODEN_HUT</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>-1</aggression>
+			<creativity>0</creativity>
+			<productivity>1</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<production>20</production>			
+		</cost>
+		<rates>
+			<population>5.0</population>
+			<production>1.5</production>
+		</rates>
+		<required>
+			<maxTemperature>
+				<value>50</value>
+			</maxTemperature>
+			<minProductivity>
+				<value>5</value>
+			</minProductivity>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>WOOD</value>
+			</resources>
+			<!-- REQUIRED TECHS -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+	<development>
+		<type>BUILDING</type>
+		<subtype>HUT</subtype>
+		<name>BAMBOO_HUT</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>-1</aggression>
+			<creativity>0</creativity>
+			<productivity>1</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<production>20</production>			
+		</cost>
+		<rates>
+			<population>5.0</population>
+			<production>1.5</production>
+		</rates>
+		<required>
+			<maxTemperature>
+				<value>50</value>
+			</maxTemperature>
+			<minProductivity>
+				<value>5</value>
+			</minProductivity>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value>BAMBOO</value>
+			</resources>
+			<!-- REQUIRED TECHS -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+	<development>
+		<type>BUILDING</type>
+		<subtype>HUT</subtype>
+		<name>FLOATING_HUT</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>-1</aggression>
+			<creativity>0</creativity>
+			<productivity>1</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<production>20</production>			
+		</cost>
+		<rates>
+			<population>5.0</population>
+			<production>1.5</production>
+		</rates>
+		<required>
+			<maxTemperature>
+				<value>50</value>
+			</maxTemperature>
+			<minProductivity>
+				<value>5</value>
+			</minProductivity>
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<optionalValue>BAMBOO,WOOD</optionalValue>
+			</resources>
+			<!-- REQUIRED TECHS -->
+			<technologyType>
+				<value>TOOLS</value>
+			</technologyType>
+		</required>
+	</development>
+
+	<development>
+		<type>BUILDING</type>
+		<name>FARMLAND</name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression>0</aggression>
+			<creativity>0</creativity>
+			<productivity>4</productivity>
+			<spirituality>0</spirituality>
+			<curiousity>0</curiousity>
+			<courage>0</courage>			
+		</buffs>
+		<cost>
+			<production>30</production>			
+		</cost>
+		<rates>
+			<health>2</health>
+			<production>4</production>
+		</rates>
+		<required>
+			<!-- REQUIRED TECHS -->
+			<technologies>
+				<value>FARMING</value>
+			</technologies>
+		</required>
+	</development>
+</developments>

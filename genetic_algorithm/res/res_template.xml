@@ -1,0 +1,14 @@
+	<resource>
+		<name></name>
+		<type></type>
+		<animalProps>
+			<nature></nature>
+			<structures></structures>
+		</animalProps>
+		<foodProps>
+			<edible></edible>
+			<health></health>
+		</foodProps>
+		<materialProps>
+		</materialProps>
+	</resource>

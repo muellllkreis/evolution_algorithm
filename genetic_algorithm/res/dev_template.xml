@@ -1,0 +1,133 @@
+	<development>
+		<type></type>
+		<subtype></subtype>
+		<name></name>
+		<buffs>
+			<!-- buffs on civ attributes -->
+			<aggression></aggression>
+			<creativity></creativity>
+			<productivity></productivity>
+			<spirituality></spirituality>
+			<curiosity></curiosity>
+			<courage></courage>			
+		</buffs>
+		<cost>
+			<wealth></wealth>
+			<intelligence></intelligence>
+			<production></production>			
+		</cost>
+		<rates>
+			<health></health>
+			<wealth></wealth>
+			<population></population>
+			<intelligence></intelligence>
+			<production></production>
+		</rates>
+		<required>
+			<!-- REQUIRED ENVIRONMENT -->
+			<!-- Attributes between 0 and 100, default=50 -->
+			<minAggression>
+				<value></value>
+			</minAggression>
+			<minCreativity>
+				<value></value>
+			</minCreativity>
+			<minProductivity>
+				<value></value>
+			</minProductivity>
+			<minSpirituality>
+				<value></value>
+			</minSpirituality>
+			<minCuriosity>
+				<value></value>
+			</minCuriosity>
+			<minCourage>
+				<value></value>
+			</minCourage>
+			<maxAggression>
+				<value></value>
+			</maxAggression>
+			<maxCreativity>
+				<value></value>
+			</maxCreativity>
+			<maxProductivity>
+				<value></value>
+			</maxProductivity>
+			<maxSpirituality>
+				<value></value>
+			</maxSpirituality>
+			<maxCuriosity>
+				<value></value>
+			</maxCuriosity>
+			<maxCourage>
+				<value></value>
+			</maxCourage>
+
+			<!-- refer to exact name of terrain type -->
+			<terrain>
+				<value></value>
+			</terrain>
+			<!-- value between -50 and 50 -->
+			<minTemperature>
+				<value></value>
+			</minTemperature>
+			<maxTemperature>
+				<value></value>
+			</maxTemperature>
+			<!-- TRUE OR FALSE -->
+			<seasons>
+				<value></value>
+			</seasons>
+			
+			<!-- refer to exact name of resource in list -->
+			<resources>
+				<value></value>
+			</resources>
+			
+			<!-- REQUIRED DISCOVERIES-->
+			<discoveries>
+				<value></value>
+			</discoveries>
+
+			<!-- REQUIRED POLITICS-->
+			<politics>
+				<value></value>
+			</politics>
+
+			<!-- REQUIRED SOCIETY -->
+			<society>
+				<value></value>
+			</society>
+
+			<!-- REQUIRED CULTURAL -->
+			<cultures>
+				<value></value>
+			</cultures>
+
+			<!-- REQUIRED RELIGION -->
+			<religions>
+				<value></value>
+			</religions>
+
+			<!-- REQUIRED MILITARY -->
+			<military>
+				<value></value>
+			</military>
+
+			<!-- REQUIRED TECHS -->
+			<technologies>
+				<value></value>
+			</technologies>
+
+			<!-- REQUIRED TECHTYPE -->
+			<technologyType>
+				<value></value>
+			</technologyType>
+
+			<!-- REQUIRED BUILDINGS -->
+			<!-- refer to exact name of building in list -->
+			<buildings>
+				<value></value>
+			</buildings>
+		</required>
+	</development>
